@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital@0;1&display=swap');
+
+:root{
+    --primaryBackround:#000000;
+    --seecondaryBackgrond:#1c1c1c;
+    --mainText: #d4af37;
+    --bodyText: #fff;
+
+    --primaryFont: 'Playfair Diaplay', serif;
+    --secondaryFont: 'Inter', sans-serif;
+    --accentFont: 'Great Vibes' , cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+}
+
+#navbar{
+    width: 100%;
+    height: 100%;
+    background: var(--primaryBackround);
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    height: 8vh;
+    aspect-ratio: 1;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
